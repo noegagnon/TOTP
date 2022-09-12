@@ -1,5 +1,8 @@
 # 2FA project
-This project is based on the [Django-Poll-App](https://github.com/devmahmud/Django-Poll-App)
+
+<p>The project adds two-factor authentication with the django Two-Factor Authentication library using the django-otp framework to implement a TOTP device. It allows a user to enable 2FA using a QR code with a token generator app. </p>
+
+Based on the [Django-Poll-App](https://github.com/devmahmud/Django-Poll-App)
 
 <h3>Login Page</h3>
 <img width="1430" alt="Screen Shot 2022-09-12 at 2 19 11 AM" src="https://user-images.githubusercontent.com/56483334/189586108-0cafa948-9033-407f-97b9-6560f432a9f4.png">
@@ -19,3 +22,6 @@ This project is based on the [Django-Poll-App](https://github.com/devmahmud/Djan
 <h3>OTP code in /admin</h3>
 <img width="1435" alt="Screen Shot 2022-09-12 at 2 06 57 AM" src="https://user-images.githubusercontent.com/56483334/189584611-4563a843-e88b-4c81-b1dc-54545a017cbb.png">
 <img width="717" alt="Screen Shot 2022-09-12 at 2 07 15 AM" src="https://user-images.githubusercontent.com/56483334/189584605-2a1e56a1-a2ee-41fc-875c-deb4847da19e.png">
+
+<br /><br />
+*The url login has been change for /account/login because the Django Two-Factor Authentication library that I used generate that url to handle 2FA login.
