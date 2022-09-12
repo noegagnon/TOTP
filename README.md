@@ -1,4 +1,4 @@
-# 2FA project
+# TOTP project
 
 <p>The project adds two-factor authentication with the django Two-Factor Authentication library using the django-otp framework to implement a TOTP device. It allows a user to enable 2FA using a QR code with a token generator app. </p>
 
