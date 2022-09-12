@@ -16,10 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from . import views
+from two_factor.urls import urlpatterns as tf_urls
+
 
 urlpatterns = [
     path('', views.home, name='home'),
     path('admin/', admin.site.urls),
+    path('', include(tf_urls)),
     path('accounts/', include('accounts.urls', namespace="accounts")),
     path('polls/', include('polls.urls', namespace="polls")),
 ]

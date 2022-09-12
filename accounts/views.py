@@ -5,7 +5,6 @@ from .forms import UserRegistrationForm
 from django.contrib import messages
 from django.http import HttpResponse
 
-
 def login_user(request):
     if request.method == 'POST':
         username = request.POST.get('username')
